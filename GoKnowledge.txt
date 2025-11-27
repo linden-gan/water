@@ -1,0 +1,15 @@
+go install  # install binary applications in $HOME/go/bin in Mac
+go install github.com/spf13/cobra-cli@latest
+
+go mod init water  # initialize a go module as a new project
+
+go get  # download dependencies and cache them under $HOME/go/pkg/mod
+go get github.com/fatih/color
+
+go list  # list dependencies
+go list -m all  # list all dependencies recursively in this module
+
+go build
+go build -o ~/go/bin/water
+
+cobra-cli add <sub_command>

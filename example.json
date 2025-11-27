@@ -1,0 +1,48 @@
+{
+    "Item": "all",
+    "ItemAlias": "",
+    "Period": null,
+    "Members": [
+        {
+            "Item": "plants",
+            "ItemAlias": "",
+            "Members": [
+                {
+                    "Item": "多肉",
+                    "ItemAlias": "succulent",
+                    "Members": [
+                        {
+                            "Item": "番杏",
+                            "ItemAlias": "Drosanthemum",
+                            "Period": [
+                                "4/14",
+                                "4/20",
+                                "4/25"
+                            ]
+                        },
+                        {
+                            "Item": "StoneFlower",
+                            "ItemAlias": "sf",
+                            "Period": [
+                                "4/14",
+                                "4/29"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Item": "chores",
+            "ItemAlias": "",
+            "Members": [
+                {
+                    "Item": "cleanCarpet",
+                    "ItemAlias": "",
+                    "Period": [],
+                    "Members": null
+                }
+            ]
+        }
+    ]
+}
